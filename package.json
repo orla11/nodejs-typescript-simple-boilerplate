@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-typescript-simple-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "rm -rf build/ && prettier --write src/ && tsc",
+    "dev": "nodemon"
+  },
+  "author": "orla.dev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8"
+  }
+}

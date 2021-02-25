@@ -1,0 +1,16 @@
+node_modules/**/*
+build/**/*
+certs/**/*
+
+.vscode
+.DS_Store
+
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+.env
+
+package-lock.json
